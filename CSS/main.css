@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+
+/* importan fixed style start */
+
+html {
+    text-transform: capitalize !important;
+    text-decoration: none !important;
+    scroll-behavior: smooth;
+}
+
+body {
+    cursor: url('../IMAGES/webimg/mouse/dumbbell1.png'), auto !important;
+}
+
+a,
+button {
+    cursor: url('../IMAGES/webimg/mouse/dumbbell1.png'), auto !important;
+}
+
+li {
+    list-style: none;
+}
+
+.heading-line {
+    height: 3px;
+    width: 10%;
+    background: #83f3ed !important;
+}
+
+hr {
+    background: #E43EE9;
+    background: -webkit-linear-gradient(left, #E43EE9, #FFFFFF);
+    background: -moz-linear-gradient(left, #E43EE9, #FFFFFF);
+    background: linear-gradient(to right, #E43EE9, #FFFFFF);
+    height: 5px !important;
+    width: 40% !important;
+}
+
+
+/* nav section  */
+
+a {
+    text-decoration: none !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    /* margin-top: 100px; */
+}
+
+.span1 {
+    font-size: 40px;
+    font-weight: 800;
+    background: #ED4082;
+    background: -webkit-radial-gradient(bottom right, #ED4082, #0E6199);
+    background: -moz-radial-gradient(bottom right, #ED4082, #0E6199);
+    background: radial-gradient(to top left, #ED4082, #0E6199);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.span2 {
+    color: white !important;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif !important;
+}
+
+.bg-darks {
+    transition: 550ms ease-in;
+    background: transparent;
+}
+
+.bg-darks.scrolled {
+    background-color: #d4d1d1!important;
+}
+
+.link a {
+    color: rgb(255, 255, 255) !important;
+}
+
+.link a:hover {
+    background: -webkit-linear-gradient(#8e56fd, #eb7a98);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.active1 {
+    background: -webkit-linear-gradient(#8e56fd, #eb7a98);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn {
+    background-color: rgb(97, 179, 255) !important;
+    font-weight: 800 !important;
+    border: none !important;
+    border-radius: 40px !important;
+    color: black !important;
+    padding: 16px 32px !important;
+    text-align: center !important;
+    font-size: 16px !important;
+    margin: 4px 2px !important;
+    transition: 3s !important;
+}
+
+.btn:hover {
+    background-color: #6a3e8e !important;
+    color: white !important;
+}
+
+
+/* navbar section end */
+
+.bghelp {
+    background-image: url("../IMAGES/bg/header-bg-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: 100vh !important;
+}
+
+.maintext {
+    color: white;
+}
+
+.text {
+    padding-top: 5rem;
+    font-size: 4rem;
+    font-weight: 800;
+    background: #ED4082;
+    background: -webkit-radial-gradient(bottom right, #ED4082, #0E6199);
+    background: -moz-radial-gradient(bottom right, #ED4082, #0E6199);
+    background: radial-gradient(to top left, #ED4082, #0E6199);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* about section start */
+
+.btn12 {
+    outline: none !important;
+    border-radius: 40px !important;
+    text-transform: capitalize !important;
+    background-color: transparent !important;
+    color: black !important;
+    font-size: 1.5rem !important;
+    font-weight: 800 !important;
+}
+
+
+/* about section end */
+
+
+/* OUR COURSES section start */
+
+.hr {
+    background: #E43EE9;
+    background: -webkit-radial-gradient(center, #E43EE9, #FFFFFF);
+    background: -moz-radial-gradient(center, #E43EE9, #FFFFFF);
+    background: radial-gradient(ellipse at center, #E43EE9, #FFFFFF);
+    height: 5px !important;
+    width: 20% !important;
+    margin-left: 40% !important;
+}
+
+.mar {
+    margin: 1px !important;
+}
+
+.card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, 0.589);
+    transition: 1s transform cubic-bezier(.155, 1.105, .295, 1.12), 1s box-shadow, 1s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.897), 0 4px 8px rgba(0, 0, 0, 0.897);
+}
+
+.one {
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(-30deg, #016b62 50%, #00957c 50%);
+}
+
+.two {
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(30deg, #00957c 50%, #016b62 50%);
+}
+
+.card-title {
+    color: blanchedalmond !important;
+}
+
+.card-text {
+    color: blanchedalmond !important;
+}
+
+
+/* OUR COURSES section end */
+
+
+/* media queary section  */
+
+@media only screen and (max-width: 1024px) {
+    .text {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .testimonial6 .testi6 .nav-link {
+        margin: 0px 0px -2px 0;
+        padding: 10px;
+    }
+    .testimonial6 .testi6 {
+        -webkit-box-orient: horizontal !important;
+        -webkit-box-direction: normal !important;
+        -webkit-flex-direction: row !important;
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+        border-right: 0px solid rgba(120, 130, 140, 0.13);
+        border-bottom: 1px solid rgba(120, 130, 140, 0.13);
+        margin-bottom: 40px;
+    }
+    .testimonial6 .testi6 .nav-link img {
+        width: 107px;
+    }
+    .testimonial6 .testi6 .nav-link.active {
+        border-right: 0px solid #49aef1;
+        border-bottom: 3px solid #49aef1;
+    }
+}
+
+@media only screen and (max-width: 474px) {
+    .text {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .text {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .bghelp {
+        height: 100% !important;
+        padding-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .text {
+        font-size: 38px;
+    }
+}
